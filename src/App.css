@@ -137,11 +137,11 @@ body {
 
 }
 
-div {
+/* div {
   overflow: hidden;
   white-space: nowrap;
   overflow: hidden;
-}
+} */
 
 .recipe-card h3 {
   margin: 0;
