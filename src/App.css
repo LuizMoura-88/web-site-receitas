@@ -1,0 +1,214 @@
+#root {
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+body {
+  padding-top: 3rem;
+  padding-bottom: 5rem;
+  height: 100vh;
+  background-color: rgb(237, 250, 250);
+}
+
+.tabs h1 {
+  font-size: 2rem;
+  font-family: monospace
+}
+
+.tab-active {
+  border-bottom: 4px rgb(202, 129, 2) solid;
+  padding-bottom: 0.5rem;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  /* grid-area: 2rem; */
+  gap: 2rem;
+}
+
+.header {
+  position: relative;
+}
+
+.header img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  object-position: center;
+  opacity: 50%;
+  border-radius: 10px;
+
+}
+
+.title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  background-color: black;
+  opacity: 80%;
+  padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+  border-radius: 8px;
+}
+
+.recipe-card img {
+  border-radius: 8px;
+  cursor: pointer;
+  width: 90%;
+  height: 350px;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0, 0, 0, 0.7);
+  z-index: 1;
+}
+
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.modal-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.modal-header h2 {
+  position: relative;
+}
+
+.modal-header h2 span {
+  position: absolute;
+  right: 1rem;
+  cursor: pointer;
+}
+
+.modal-content {
+  background-color: white;
+  padding: 2em;
+  border-radius: 4px;
+  max-width: 500px;
+}
+
+.tabs {
+  display: flex;
+  gap: 2rem;
+  cursor: pointer;
+}
+
+.recipe-card-title {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.recipe-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  gap: 2rem;
+}
+
+.recipe-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  padding: 1rem;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  position: relative;
+  cursor: pointer;
+  gap: 1.5rem;
+  overflow: hidden;
+
+}
+
+div {
+  overflow: hidden;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.recipe-card h3 {
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 1.1 rem;
+  font-weight: bold;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.icon-card {
+  position: absolute;
+  top: 4px;
+  left: 3px;
+}
+
+form {
+  display: flex;
+  background-color: white;
+  align-items: center;
+
+}
+
+input {
+  padding: 0.5rem;
+  font-size: 2rem;
+  flex: 1;
+  border: none;
+}
+
+input:focus {
+  outline: none;
+
+}
+
+button {
+  margin-top: 1rem;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+
+}
+
+.view-more-button {
+  padding: 8px;
+  width: 10rem;
+  border: 2px solid black;
+  font-size: 16px;
+  background-color: rgb(150 197 197);
+  border-radius: 8px;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+}
+
+.view-more-button:hover {
+  background-color: rgb(109, 159, 159);
+  font-weight: bold;
+}
+
+
+
+@media (min-width:768px) {
+  body {
+    margin-left: 10rem;
+    margin-right: 10rem;
+  }
+}
