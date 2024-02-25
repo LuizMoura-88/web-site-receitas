@@ -35,14 +35,13 @@ O acesso aos dados é possível, pois esta aplicação está integrada a API  [c
 ### Como rodar o projeto ✅
 * ##### 1° Faça o download do repositório, copie para uma pasta local, abra esta pasta por uma IDE (Ambiente de Desenvolvimento Integrado) foi utilizado o VSCODE
 
-  ![Captura de tela 2024-02-07 161428](https://github.com/LuizMoura-88/servico_de_streaming/assets/122941117/21b8fa4a-7e7b-4d3c-aebd-8569b71ce709)
-##
-* ##### 2° Instale o plugin Live Server
-  
-![Captura de tela 2024-02-07 160831](https://github.com/LuizMoura-88/servico_de_streaming/assets/122941117/57acb30f-569c-4b9b-badc-38aa7a455399)
-##
-* ##### 3° Abra o arquivo HTML e clique com o botão direito do mouse no editor e clique em  -> Open with Live Ou execute o comando ` cmd+L, cmd+O e cmd+L, cmd+C OU (alt+L, alt+O)(alt+L, alt+C)`
-![Captura de tela 2024-02-07 160441](https://github.com/LuizMoura-88/servico_de_streaming/assets/122941117/1f26ddfd-bdab-422d-aaa1-0fd82d632043)
+```
+1° Copiar link: git@github.com:LuizMoura-88/web-site-receitas.git
+2° Cbrir a linha de comando de seu computador local escolher um diretorio e efetuar o git clone:  git clonegit@github.com:LuizMoura-88/web-site-receitas.git
+3° Após efetuar o download do repostorio remoto abrir o arquivo em sua IDE (ambiente de desenvolvimento integrado).
+4° Em sua linha de comando efetuar o comando npm run dev
+5° Escolher o link que sera gerado automaticamente pelo sistema exemplo: http://localhost:5173/
+```
 ##
 
 ## 📌 Informações Adicionais
