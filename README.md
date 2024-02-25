@@ -57,7 +57,7 @@ O acesso aos dados é possível, pois esta aplicação está integrada a API  [c
 ##
 
 ## ⚠️ Problemas enfrentados
-* Encontrei dificuldade em realizar o deploy da API desta aplicação na plataforma do vercel visto que o vercel é utilizados para aplicaçõe backend, porem ao pesquisar a documentação do vercel pude encontrar a solução para implmentar o NODE.JS ao Vercel.
+* Encontrei dificuldade em realizar o deploy da API desta aplicação na plataforma do vercel visto que o vercel é utilizados para aplicaçõe frontend, porem ao pesquisar a documentação do vercel pude encontrar a solução para implmentar o NODE.JS ao Vercel.
 ##
   
 ## ⏭️ Próximos passos
