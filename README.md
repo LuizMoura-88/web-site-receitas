@@ -37,12 +37,19 @@ O acesso aos dados é possível, pois esta aplicação está integrada a API  [c
 
 ```
 1° Copiar link: git@github.com:LuizMoura-88/web-site-receitas.git
-2° Cbrir a linha de comando de seu computador local escolher um diretorio e efetuar o git clone:  git clonegit@github.com:LuizMoura-88/web-site-receitas.git
-3° Após efetuar o download do repostorio remoto abrir o arquivo em sua IDE (ambiente de desenvolvimento integrado).
+2° Abrir a linha de comando de seu computador local, escolher um diretório e efetuar o git clone:  git clonegit@github.com:LuizMoura-88/web-site-receitas.git
+3° Após efetuar o download do repositório remoto abrir o arquivo em sua IDE (ambiente de desenvolvimento integrado).
 4° Em sua linha de comando efetuar o comando npm run dev
-5° Escolher o link que sera gerado automaticamente pelo sistema exemplo: http://localhost:5173/
+5° Escolher o link que será gerado automaticamente pelo sistema exemplo: http://localhost:5173/
 ```
 ##
+
+### Como utilizar o serviço ✅
+
+
+
+
+
 
 ## 📌 Informações Adicionais
 * Foi utilizado a biblioteca AXIOS atraves de uma `CDN` [Maiores informações](https://axios-http.com/ptbr/docs/intro)
