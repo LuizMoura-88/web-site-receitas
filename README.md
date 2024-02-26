@@ -12,7 +12,7 @@ O acesso aos dados é possível, pois esta aplicação está integrada a API  [c
 ##
 
 ### 📌 Layout do Projeto 
-<img width="2152" alt="processo_2" src="https://github.com/LuizMoura-88/servico_de_streaming/assets/122941117/bae50e93-9975-4ae7-97d2-a58c1c1f99d0">
+<img width="2152" alt="processo_2" src="https://github.com/LuizMoura-88/web-site-receitas/assets/122941117/098e4faf-7a8d-4ab2-a75b-4fec483306e8">
 
 ##
 
