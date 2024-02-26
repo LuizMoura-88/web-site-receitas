@@ -45,8 +45,7 @@ O acesso aos dados é possível, pois esta aplicação está integrada a API  [c
 
 ### Como utilizar o serviço ✅
 
-
-
+https://github.com/LuizMoura-88/web-site-receitas/assets/122941117/8432dbe2-bb27-46cc-b48b-25e09b101515
 
 ##
 
