@@ -1,6 +1,6 @@
 
 ## 🖥️ Web Site sobre Receitas 
-Este website disponibiliza serviços sobre consultas de receitas de forma gratuita na internet, oferecendo informação nutricional sobre diversas receitas.
+Este website disponibiliza serviços sobre consultas de receitas de forma gratuita na internet, oferecendo informações nutricionais sobre diversas receitas.
 O acesso aos dados é possível, pois esta aplicação está integrada a API  [colheracular](https://spoonacular.com/food-api) que hospeda uma infinidade de receitas caseiras e sofisticadas para sua dieta.  Esta aplicação disponibiliza das seguintes funcionalidades:
 
 - Modal (Uma interface com informações adicionais do contexto ao que está inserido).
@@ -55,11 +55,13 @@ O acesso aos dados é possível, pois esta aplicação está integrada a API  [c
 ## 📌 Informações Adicionais
 * Foi utilizado a ferramenta `PRISMA` para efetuar as consultas ao banco de dados `POSTGRESSQL`
 * A prentensão foi integrar uma interface de usuario a uma API que tem a função de disponibilizar dados de uma API de terceiros e persistir essas informações em um banco de dados.
+* iniciativa do projeto tem como origem o seguinte endereço: [🌐](https://www.youtube.com/watch?v=5wwaQ4GiSNU&list=PLpK58zpbuDFn0J5JcAoKwtRcw7XMsEqvf&index=1&t=58s)
 
 ##
 
 ## ⚠️ Problemas enfrentados
 * Encontrei dificuldade em realizar o deploy da API desta aplicação na plataforma do vercel visto que o vercel é utilizados para aplicaçõe frontend, porem ao pesquisar a documentação do vercel pude encontrar a solução para implmentar o NODE.JS ao Vercel.
+  
 ##
   
 ## ⏭️ Próximos passos
